@@ -1,24 +1,15 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="AssemblyInfo.cs" company="TA">
-//   TA
-// </copyright>
-// <summary>
-//   StringExtensions
-// </summary>
-// --------------------------------------------------------------------------------------------------------------------
-
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("StringExtensions")]
+[assembly: AssemblyTitle("04.01. RefactorYourCSharp1ExamSolutions")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("StringExtensions")]
+[assembly: AssemblyProduct("04.01. RefactorYourCSharp1ExamSolutions")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -29,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("52156d6f-0db1-4758-9ceb-6dfe72546d6a")]
+[assembly: Guid("71b5add1-52ed-40f2-93e4-08654052071e")]
 
 // Version information for an assembly consists of the following four values:
 //

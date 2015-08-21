@@ -1,4 +1,13 @@
-﻿namespace StringExtensions
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="StringExtensions.cs" company="TA">
+//   TA
+// </copyright>
+// <summary>
+//   String extensions documenting.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace StringExtensions
 {
     using System;
     using System.Collections.Generic;
@@ -13,49 +22,49 @@
     /// Static class providing various string extension methods: 
     /// <list type="bullet">
     /// <item> 
-    /// <description>ToMd5Hash,</description> 
+    /// <description><see cref="ToMd5Hash"/>,</description> 
     /// </item> 
     /// <item> 
-    /// <description>ToBoolean,</description> 
+    /// <description><see cref="ToBoolean"/>,</description> 
     /// </item>
     /// <item> 
-    /// <description>ToShort,</description> 
+    /// <description><see cref="ToShort"/>,</description> 
     /// </item> 
     /// <item> 
-    /// <description>ToInteger,</description> 
+    /// <description><see cref="ToInteger"/>,</description> 
     /// </item>
     /// <item> 
-    /// <description>ToLong,</description> 
+    /// <description><see cref="ToLong"/>,</description> 
     /// </item>
     /// <item> 
-    /// <description>ToDateTime,</description> 
+    /// <description><see cref="ToDateTime"/>,</description> 
     /// </item>
     /// <item> 
-    /// <description>CapitalizeFirstLetter,</description> 
+    /// <description><see cref="CapitalizeFirstLetter"/>,</description> 
     /// </item>
     /// <item>
-    /// <description>ConvertCyrillicToLatinLetters,</description>
+    /// <description><see cref="ConvertCyrillicToLatinLetters"/>,</description>
     /// </item>
     /// <item>
-    /// <description>ConvertLatinToCyrillicKeyboard,</description>
+    /// <description><see cref="ConvertLatinToCyrillicKeyboard"/>,</description>
     /// </item>
     /// <item>
-    /// <description>ToValidUsername,</description>
+    /// <description><see cref="ToValidUsername"/>,</description>
     /// </item>
     /// <item>
-    /// <description>ToValidLatinFileName,</description>
+    /// <description><see cref="ToValidLatinFileName"/>,</description>
     /// </item>
     /// <item>
-    /// <description>GetFirstCharacters,</description>
+    /// <description><see cref="GetFirstCharacters"/>,</description>
     /// </item>
     /// <item>
-    /// <description>GetFileExtension,</description>
+    /// <description><see cref="GetFileExtension"/>,</description>
     /// </item>
     /// <item>
-    /// <description>ToContentType,</description>
+    /// <description><see cref="ToContentType"/>,</description>
     /// </item>
     /// <item>
-    /// <description>ToByteArray,</description>
+    /// <description><see cref="ToByteArray"/>,</description>
     /// </item>
     /// </list> 
     /// </summary>
@@ -257,10 +266,10 @@
         }
 
         /// <summary>
-        /// Converts a string into a valid username
+        /// Converts a string into a valid user name.
         /// </summary>
         /// <param name="input">The string the method is called upon.</param>
-        /// <returns>The string after the cyrllic letters are converted to latin and all characters 
+        /// <returns>The string after the Cyrillic letters are converted to Latin and all characters 
         /// that are not alpha-numeric, ".", or "_", are removed.</returns>
         /// <exception cref="RegexMatchTimeoutException">A time-out occurred. For more information about time-outs, see the Remarks section.</exception>
         public static string ToValidUsername(this string input)
@@ -270,10 +279,10 @@
         }
 
         /// <summary>
-        /// Converts a string into a valid latin filename
+        /// Converts a string into a valid Latin filename
         /// </summary>
         /// <param name="input">The string the method is called upon.</param>
-        /// <returns>The string after the cyrllic letters are converted to latin, spaces are replaced with "-",
+        /// <returns>The string after the Cyrillic letters are converted to Latin, spaces are replaced with "-",
         /// and all characters that are not alpha-numeric, ".", "-", or "_", are removed.</returns>
         /// <exception cref="RegexMatchTimeoutException">A time-out occurred. For more information about time-outs, see the Remarks section.</exception>
         public static string ToValidLatinFileName(this string input)
