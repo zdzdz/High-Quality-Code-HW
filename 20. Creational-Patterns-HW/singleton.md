@@ -66,4 +66,4 @@ Singleton Pattern се **имплементира** чрез *static поле* �
 
 Структура:
 
-![](Singleton.png)
+![](singleton.png)
